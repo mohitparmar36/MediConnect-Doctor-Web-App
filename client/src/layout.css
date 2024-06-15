@@ -1,0 +1,127 @@
+.main {
+  padding: 20px;
+  background: #013737;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.role {
+  color: white;
+  font-size: 14px;
+  margin-top: -15px;
+}
+
+.sidebar {
+  background-color: #005555;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-right: 20px;
+  min-height: 100%;
+  padding: 10px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  background-color: #ccd9da;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  height: 82vh;
+  width: 100%;
+  padding: 15px;
+  overflow-x: scroll !important;
+}
+
+.menu {
+  margin-top: 100px;
+  padding: 0 10px;
+}
+
+.menu-item {
+  margin-top: 30px;
+}
+
+.menu-item a {
+  color: rgba(255, 255, 255, 0.727);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.menu-item i {
+  color: rgba(255, 255, 255, 0.716);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.active-menu-item {
+  color: white;
+  background-color: #013737;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.ant-scroll-number-only-unit {
+  padding-right: -10px !important;
+  padding-bottom: -10px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    padding: 0 5px;
+  }
+}
+
+/* Additional CSS from previous response */
+
+.header {
+  background-color: #005555;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-bottom: 20px;
+  height: 10vh;
+}
+
+.header-action-icon {
+  color : white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.header-action-icon:hover {
+  color: #ffbf00;
+}
+
+.header-profile {
+  display: flex;
+  align-items: center;
+}
+
+.header-profile-name {
+  margin-left: 30px; /* Add margin between profile name and badge */
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-profile .badge {
+  margin-right: 55px; /* Add margin between badge and profile name */
+}

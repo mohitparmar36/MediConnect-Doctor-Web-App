@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* antd override */
+input{
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+input:focus , .ant-picker{
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+label{
+  font-size: 16px !important;
+  color: black !important;
+}
+.ant-form-item{
+  margin: 10px 0 !important;; 
+}
+.ant-picker-input input{
+  border: none !important;
+}
+.ant-picker{
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+/* Common styling */
+
+.spinner-parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.704);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+.spinner-border{
+  width: 5rem;
+  height: 5rem;
+  color: white !important;
+}
+
+.page-title{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.833);
+  font-weight: bold;
+}
+.card-title {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8); /* Adjust color opacity as needed */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add text shadow */
+}
+
+.normal-text{
+  font-size: 1rem;
+}
+.card {
+  box-shadow: 0 0 2px rgb(189, 188, 188);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: #85abab;
+  margin-bottom: 2rem;
+  transition: transform 0.3s; /* Add transition for smooth effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase scale on hover (zoom effect) */
+}
+
+
+.card-details {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333; /* Color for card details */
+}
+
+.card-details b {
+  font-weight: bold;
+  color: #555;
+}
+
+.card-details p {
+  margin-bottom: 8px;
+}
+
+/* Add emojis for visual appeal */
+.card-details .emoji {
+  margin-right: 5px;
+}
+
+.primary-button{
+  background-color: #005555 !important;
+  border-color: #005555 !important;
+  height: 40px !important;
+  width: 100% !important;
+  color: white !important;
+  font-size: 16px !important;
+  width: max-content !important;
+}
+.full-width-button{
+  width: 100% !important;
+}
+p{
+  color: rgba(0, 0, 0, 0.673) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.anchor{
+  color: black !important;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px !important;
+}
+.anchor:hover{
+  text-decoration: underline !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+/* authentication pages */
+
+.authentication{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #005555;
+}
+.authentication-form{
+  width: 400px;
+}
+
+.authentication .card-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white !important;
+  max-width: max-content !important;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
+
